@@ -1,0 +1,230 @@
+<html lang="uk"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мистецтво Коміксів</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #ffcc00;
+            color: #000;
+            text-align: center;
+            padding: 1rem 0;
+            font-size: 2.5rem;
+            font-weight: bold;
+            border-bottom: 4px solid #333;
+        }
+        nav {
+            background: #333;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: #ffcc00;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-size: 1.2rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            width: 1000px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+        section {
+            margin-bottom: 2rem;
+        }
+        h2 {
+            color: #ff6600;
+            border-bottom: 2px solid #ff6600;
+            display: inline-block;
+            padding-bottom: 0.2rem;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+        .card {
+            background: #fff;
+            border: 2px solid #333;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+        }
+        .card img {
+            width: 400px;
+            height: 400px;
+            display: block;
+        }
+        .card p {
+            padding: 0.5rem;
+        }
+         iframe {
+            width: 100%;
+            height: 315px;
+            border:none;
+        }
+        .artist {
+            margin-bottom: 1.5rem;
+        }
+        .artist h3 {
+            margin: 0;
+            font-size: 1.5rem;
+            color: #333;
+        }
+        .artist p {
+            margin: 0.5rem 0 0;
+            font-size: 1rem;
+        }
+        
+        .card p {
+            padding: 0.5rem;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #333;
+            color: #fff;
+            font-size: 0.9rem;
+        }
+          </style>
+          </head>
+          <body>
+            <header>
+    Мистецтво Коміксів
+</header>
+
+<nav>
+    <a href="#about">Що таке комікси?</a>
+    <a href="#genres">Популярні жанри</a>
+    <a href="#history">Історія</a>
+     <a href="#artists">Художники коміксів</a>
+    <a href="#iframe">Як малювати</a>
+</nav>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+        <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="item">
+            <img src="https://ebornbooks.com/wp-content/uploads/2022/02/Pot-3-2.jpg" height="500" alt="Слайд 1">
+            <div class="carousel-caption">
+                <h3>Чудові історії у світі коміксів</h3>
+            </div>
+        </div>
+        <div class="item active">
+            <img src="https://preview.redd.it/10-comic-book-logo-wallpapers-1920-x-1080-1080p-v0-850eagvsfljb1.jpg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=9c044f03e5e3a23c89bb11651127c71d8384c04b" height="500" alt="Слайд 2">
+            <div class="carousel-caption">
+                <h3>Пригоди, які надихають</h3>
+            </div>
+        </div>
+        <div class="item">
+            <img src="https://www.researchgate.net/publication/354711457/figure/fig6/AS:1097518310010890@1638680164517/Excerpt-from-CRONA-Comix-II-p-2.ppm" alt="Слайд 3">
+            <div class="carousel-caption">
+                <h3>Комікси — це мистецтво!</h3>
+            </div>
+        </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+</div>
+
+<div class="container">
+    <section id="about">
+        <h2>Що таке комікси?</h2>
+        <p>
+            Комікси — це це мистецтво візуального оповідання, де художники використовують малюнки, діалоги та інші елементи, щоб розказати історію.
+
+Комікси поєднують в собі образи, текст, діалоги та звукові ефекти, створюючи унікальний спосіб передачі емоцій і розповіді.
+        </p>
+    </section>
+
+    <section id="genres">
+        <h2>Популярні жанри</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="https://taschen.makaira.media/taschen/image/upload/f_webp,w_1200/v1673462260/products-live/a3d446fb0046b587eb0ed76edca3f4d6.jpg" height="400" alt="Супергерої">
+                <h3>Супергерої</h3>
+                <p>Епічні історії про героїв, які рятують світ.</p>
+            </div>
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/51UGs8I69ZL._AC_UF894,1000_QL80_.jpg" height="400" alt="Наукова фантастика">
+                <h3>Наукова фантастика</h3>
+                <p>Фантастичні світи та технології майбутнього.</p>
+            </div>
+            <div class="card">
+                <img src="https://204comics.com/cdn/shop/files/img135.jpg?v=1689716896" alt="Гумор">
+                <h3>Гумор</h3>
+                <p>Смішні ситуації та веселі персонажі.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="history">
+        <h2>Історія розвитку коміксів</h2>
+        <p>
+            Комікси виникли у XIX столітті як гумористичні ілюстрації в газетах. У 1930-х роках у США розпочалася ера супергероїв з появою Супермена (1938), що заклало основу для розвитку індустрії. У післявоєнний період тематика коміксів стала різноманітнішою: з’явилися жахи, пригоди, фантастика та романтика. У 1960-х роках Marvel і DC Comics створили культових персонажів, таких як Людина-павук, Бетмен і Залізна людина.
+            
+            З розвитком поп-культури комікси почали впливати на кіно та телебачення, а з появою фільмів Marvel та DC у XXI столітті вони стали надзвичайно популярними. Сьогодні комікси читають по всьому світу, і вони є важливою частиною сучасної культури.
+        </p>
+    </section>
+
+<section id="iframe">
+         <section id="video">
+            <h2>Як малювати у стилі коміксів</h2>
+           <iframe width="560" height="315" src="https://www.youtube.com/embed/ZDJqrIsOohA?si=SqzOIqZluQg137GI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+    <section id="artists">
+        <h2>Відомі художники коміксів</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="https://comichub.blob.core.windows.net/high/52803569-5846-4902-995c-e1ce48287601.jpg" alt="Джек Кірбі">
+                <h3>Джек Кірбі</h3>
+                <p>Відомий своїми динамічними коміксами, що стали основою для багатьох супергероїв, зокрема Капітана Америки та Фантастичної четвірки.</p>
+            </div>
+            <div class="card">
+                <img src="https://moorartgallery.com/cdn/shop/products/Stan_Lee_TravisKnight_web_2_1800x1800.jpg?v=1638386590" alt="Стен Лі">
+                <h3>Стен Лі</h3>
+                <p>Він стояв за створенням безлічі супергеройських персонажів, включаючи Людей Ікс, Людину-Павука, Фантастичну четвірку, Тора, Залізну людину та багато інших.</p>
+            </div>
+            <div class="card">
+                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c3bcdf8c-37e3-49f4-a3de-6f3712fb2cb7/d2omfb3-fa71e838-17a6-445d-8f92-a443c7113f17.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2MzYmNkZjhjLTM3ZTMtNDlmNC1hM2RlLTZmMzcxMmZiMmNiN1wvZDJvbWZiMy1mYTcxZTgzOC0xN2E2LTQ0NWQtOGY5Mi1hNDQzYzcxMTNmMTcuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.loFWfNgMH1BepBSl6ZdC4GC0MOR28PBZqVWdZF5-47A" alt="Алан Мур">
+                <h3>Алан Мур</h3>
+                <p>Відомий своїми інтелектуальними та глибокими коміксами, зокрема Watchmen і V for Vendetta.</p>
+            </div>
+        </div>
+    </section>
+</div>
+
+<footer>
+    © 2024 Мистецтво Коміксів. Усі права захищено.
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+
+</body></html>
